@@ -34,7 +34,6 @@
     width: 400px;
     margin: 2rem auto;
     border-radius: 4px;
-       
 }
 
 .progress__bar {
@@ -43,7 +42,6 @@
     width: 0%;
     border-radius: 4px;
     border-right: 2px solid black;
-       
 }
 
 .quiz__ul__options {
@@ -75,11 +73,9 @@
     border-bottom: 4px solid orange;
 }
 
-
 .quiz__ul__options input:checked + label i {
     background-image: url('images/check-circle-solid.svg');
 }
-
 
 .quiz__ul__options label i {
     background: url('images/circle-regular.svg');
@@ -92,7 +88,7 @@
 
 .button__section {
     text-align: center;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 button {
@@ -101,32 +97,32 @@ button {
     font-family: sans-serif;
     font-weight: 500;
     padding: 1rem;
-  text-transform: uppercase;
-  border: 1px solid #eee;
-  outline: 0;
-  opacity: 0.9;
-  font-weight: bold;
-  transition: 0.3s all ease;
+    text-transform: uppercase;
+    border: 1px solid #eee;
+    outline: 0;
+    opacity: 0.9;
+    font-weight: bold;
+    transition: 0.3s all ease;
+    margin: auto;
 
 }
 
-button:hover {
+.submit:hover {
     background-color: #282a39;
     color: white;
     opacity: 1;
-
-
 }
 
 .submit {
     padding-bottom: 2rem;
     text-align: center; 
-    margin: 1.5rem;
     width: 450px;
     height: 40px;
+    display: block;
 }
 
 .restart {
+    display: block;
     padding-bottom: 2rem;
     opacity: 0;
     height: 40px;
