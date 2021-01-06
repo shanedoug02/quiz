@@ -81,7 +81,7 @@ const question1 = new QuestionClass(
     
 const question2 = new QuestionClass(
         "When is my anniversary?",
-        ["May 23, 2011", "May 22, 2010", "June 22, 2010", "Everyday is anniversary for me"],
+        ["May 23, 2011", "May 22, 2010", "June 22, 2010", "Everyday is an anniversary for me"],
         1
 );
     
@@ -167,7 +167,7 @@ const renderProgress = () => {
 
 const renderEndScreen = () => {
     changeHTML(quizTitleEl, `You've completed the quiz!`)
-    changeHTML(quizTaglineEl, `Click restart to redo the quiz.`)
+    changeHTML(quizTaglineEl, `Click RESTART to redo the quiz.`)
     changeHTML(quizTrackerEl, `Your score: ${getPercentage(Quiz1.score,Quiz1.questionInstances.length)}%`)
     progressBarEl.style.width = '100%';  
     submitButtonEl.style.opacity = 0;
