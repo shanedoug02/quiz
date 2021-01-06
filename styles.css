@@ -116,7 +116,7 @@ button {
 .submit {
     padding-bottom: 2rem;
     text-align: center; 
-    width: 450px;
+    width: 400px;
     height: 40px;
     display: block;
 }
@@ -126,6 +126,6 @@ button {
     padding-bottom: 2rem;
     opacity: 0;
     height: 40px;
-    width: 450px;
+    width: 400px;
     text-align: center;
 }
