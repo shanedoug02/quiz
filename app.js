@@ -80,7 +80,7 @@ const question1 = new QuestionClass(
 );
     
 const question2 = new QuestionClass(
-        "When is my aniversary?",
+        "When is my anniversary?",
         ["May 23, 2011", "May 22, 2010", "June 22, 2010", "Everyday is anniversary for me"],
         1
 );
